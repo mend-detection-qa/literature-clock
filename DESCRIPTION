@@ -1,0 +1,21 @@
+Package: literatureclock
+Title: Literature Clock - A Clock Using Quotes from Literature
+Version: 1.0.0
+Authors@R: person("Johannes", "NE", email = "author@example.com", role = c("aut", "cre"))
+Description: A Shiny application that displays time using quotes from literary works.
+License: MIT
+Imports:
+    dplyr,
+    readr,
+    jsonlite,
+    markdown,
+    stringr,
+    glue,
+    vroom,
+    progress
+Depends:
+    R (>= 4.1.0)
+Suggests:
+    testthat,
+    cli
+Encoding: UTF-8
